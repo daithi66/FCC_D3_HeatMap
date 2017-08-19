@@ -1,0 +1,67 @@
+$darkBackground: #333;
+$lightText: #EEE;
+$barColor: #4682B4;
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 0;
+  padding: 2px 0px 5px 10px;
+  background-color: $darkBackground;
+  color: $lightText;
+}
+h2 {
+  color: $barColor;
+  font-size: 2.5em;
+  position: absolute;
+  top: 45px;
+  left: 70px;
+}
+#sig {
+  float: right;
+  color: $lightText;
+  font-size: 1.2em;
+  margin: 10px;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+#wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+#tooltip {
+  width: 80px;
+  border: 1px solid #555;
+  color: #555;
+  background-color: #F2F2F2;
+  position: absolute;
+  top: 85px;
+  left: 70px;
+  font-size: .7em;
+  padding: 2px;
+  padding-top: 1px;
+  display: none;
+}
+#year {
+  display: inline;
+  font-weight: bold;
+}
+#month {
+  display: inline;
+  font-weight: bold;
+}
+#temp {
+  display: block;
+}
